@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta
-            name="viewport"
-            content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"
-        />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
 
-        <script type="module" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer@2.5.2/dist/cdn/perspective-viewer.js"></script>
-        <script type="module" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-datagrid@2.5.2/dist/cdn/perspective-viewer-datagrid.js"></script>
-        <script type="module" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-d3fc@2.5.2/dist/cdn/perspective-viewer-d3fc.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer@2.6.0/dist/cdn/perspective-viewer.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-datagrid@2.6.0/dist/cdn/perspective-viewer-datagrid.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-d3fc@2.6.0/dist/cdn/perspective-viewer-d3fc.js"></script>
 
         <link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@finos/perspective-viewer/dist/css/themes.css" />
 
@@ -20,6 +17,6 @@
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-        <perspective-viewer id="viewer"></perspective-viewer>
+        <perspective-viewer id="viewer"><span style="display: inline-block; margin: 24px">Rendering ...</span></perspective-viewer>
     </body>
 </html>
